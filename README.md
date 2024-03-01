@@ -1,5 +1,5 @@
 # Central Kurdish Neural Spell Corrector 
-<img src="https://www.razhan.ai/_next/image?url=/static/images/projects/spell-checker.webp&w=1200&q=75" alt="Banner Image" height="200">
+<img src="https://www.razhan.ai/_next/image?url=/static/images/projects/spell-checker.webp&w=1200&q=75" alt="Banner Image" height="240" width="1200">
 
 > **Note:** The documentation for this project is currently being written. I am working hard to make this project easily hackable so people can add new heuristics and train more models.
 
@@ -23,6 +23,7 @@ The benchmark for this [Project](https://github.com/AsoSoft/Central-Kurdish-Spel
 | CER      | 9.6545 |
 | WER      | 21.7558|
 | Bleu     | 68.1724|
+
 
 
 ## References
