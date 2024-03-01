@@ -164,6 +164,10 @@ test.csv
 Kurd-Spell/
 tokenizer
 sn_project
+
+
+# Data dir
 data/*
+!data/words.json
 !data/asosoft_benchmark.csv
 !data/Sorani-Arabic.csv
