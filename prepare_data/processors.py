@@ -113,7 +113,7 @@ def get_text_distorter(ratio, sentences: List[str]):
     return TextDistorter(
         ratio=ratio,
         processes=[
-            # SentencePermutation(sentences),
+            SentencePermutation(sentences),
             RandomCharsInjector(constants.KURDISH_CHARS),
             RandomCharsSwapper(),
             RandomCharRemover(),

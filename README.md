@@ -66,7 +66,11 @@ Since the problem is framed as mapping a sequence containing misspellings to a c
 5. Evaluate the model on both [`data/asosoft_benchmark.csv`](data/asosoft_benchmark.csv) and [`data/Sorani-Arabic.csv`](data/Sorani-Arabic.csv) using  [`eval.sh`](eval.sh) 
 
 ## Observations
-TBW
+Different heuristics could be added to the pipeline, for example, replacing ر at the start of every word with ڕ or replacing ك with ک. These aforementioned examples occur quite often in Central Kurdish texts online. But both of these problems can be solved using rule-based instead of being learned from the data. It is more practical to address such problems using rule-based solutions such as [`KLPT`](https://github.com/sinaahmadi/klpt).
+
+But in case you can think of more heuristics, they can be easily added to the pipeline in the [`get_text_distorter`](prepare_data/processors.py#L111) function.
+
+PRs with additional models, evaluation, or data generation heuristics are welcome! 👍 
 
 ## References
 - https://arxiv.org/abs/1910.13461
